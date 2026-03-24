@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ABC Engineering Contracts</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+  <h1>ABC Engineering</h1>
+  <nav>
+    <a href="#">Home</a>
+    <a href="#services">Services</a>
+    <a href="#projects">Projects</a>
+    <a href="#contact">Contact</a>
+  </nav>
+</header>
+
+<section class="hero">
+  <h2>Reliable Mechanical & Civil Contracting Solutions</h2>
+  <p>We deliver high-quality engineering services with safety and precision.</p>
+  <button onclick="scrollToContact()">Get a Quote</button>
+</section>
+
+<section id="services">
+  <h2>Our Services</h2>
+
+  <div class="service-box">
+    <h3>Mechanical Works</h3>
+    <ul>
+      <li>Fabrication & Erection</li>
+      <li>Piping Work</li>
+      <li>Industrial Maintenance</li>
+      <li>HVAC Installation</li>
+    </ul>
+  </div>
+
+  <div class="service-box">
+    <h3>Civil Works</h3>
+    <ul>
+      <li>Building Construction</li>
+      <li>Road & Infrastructure</li>
+      <li>Renovation & Repair</li>
+      <li>Structural Work</li>
+    </ul>
+  </div>
+</section>
+
+<section id="projects">
+  <h2>Our Projects</h2>
+  <div class="project">
+    <h4>Factory Construction</h4>
+    <p>Location: Bhopal | Duration: 6 months</p>
+  </div>
+  <div class="project">
+    <h4>Pipeline Installation</h4>
+    <p>Industrial piping work completed successfully</p>
+  </div>
+</section>
+
+<section class="about">
+  <h2>Why Choose Us</h2>
+  <p>✔ Experienced Engineers<br>
+     ✔ Quality Work<br>
+     ✔ On-Time Delivery<br>
+     ✔ Safety First Approach</p>
+</section>
+
+<section id="contact">
+  <h2>Contact Us</h2>
+
+  <form>
+    <input type="text" placeholder="Your Name" required>
+    <input type="email" placeholder="Your Email" required>
+    <input type="tel" placeholder="Phone Number">
+    <textarea placeholder="Your Message"></textarea>
+    <button type="submit">Send Message</button>
+  </form>
+
+</section>
+
+<footer>
+  <p>© 2026 ABC Engineering | All Rights Reserved</p>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
